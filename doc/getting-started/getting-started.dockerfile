@@ -20,6 +20,7 @@ RUN pip3 install -U \
 	pip \
 	setuptools \
 	jupyter \
+	'ipython<7.0' \
 	python3-indy==1.6.2-dev-720
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 68DB5E88 \
